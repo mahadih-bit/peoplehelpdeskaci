@@ -1,0 +1,482 @@
+[
+ {
+  "category": "General",
+  "q": "What are ACI Service Rules?",
+  "a": "ACI Service Rules are the company’s employment guidelines covering employment terms, salary, benefits, leave, transfer, separation, conduct and other service-related matters."
+ },
+ {
+  "category": "General",
+  "q": "Who is covered under the Service Rules?",
+  "a": "The Service Rules generally apply to eligible management employees of ACI, unless a separate business-specific policy or employee-category policy applies."
+ },
+ {
+  "category": "General",
+  "q": "Who should I contact for Service Rule clarification?",
+  "a": "Employees should contact the People Team for any clarification, interpretation or support regarding Service Rules."
+ },
+ {
+  "category": "General",
+  "q": "Can Service Rules be changed?",
+  "a": "Yes, Service Rules may be amended where necessary in line with applicable Labour Law/Rules and company requirements. Final authority rests with the Management Committee."
+ },
+ {
+  "category": "General",
+  "q": "Can employees suggest changes to Service Rules?",
+  "a": "Employees may share suggestions through proper channel to the People Team. Any formal amendment will require review and approval by the appropriate authority."
+ },
+ {
+  "category": "General",
+  "q": "What happens if any rule conflicts with Labour Law?",
+  "a": "Applicable Labour Law/Rules will prevail where legally required, and the company may amend the rule accordingly through the appropriate authority."
+ },
+ {
+  "category": "General",
+  "q": "Are all Service Rules applicable to every employee?",
+  "a": "Not always. Some rules may vary based on employee category, grade, business, location, appointment terms or separate policy."
+ },
+ {
+  "category": "General",
+  "q": "What should I do if I am unsure about a policy?",
+  "a": "Employees should not assume. They should contact the People Team before taking any action involving benefits, leave, travel, separation or disciplinary matters."
+ },
+ {
+  "category": "General",
+  "q": "Is exception allowed under Service Rules?",
+  "a": "Exceptions may be considered only through proper approval from the authorized authority, depending on the nature of the case."
+ },
+ {
+  "category": "Grade Structure",
+  "q": "How many management grades does ACI currently have?",
+  "a": "ACI currently follows 10 management grades, from OM01 to OM10, along with other business- or job category-specific grade structures where applicable."
+ },
+ {
+  "category": "Grade Structure",
+  "q": "Why are employees placed in different grades?",
+  "a": "Grades are based on role level, responsibility, accountability, business need and company-approved structure."
+ },
+ {
+  "category": "Grade Structure",
+  "q": "Can grade structure change?",
+  "a": "Yes, grade structure may be reviewed or changed by Management based on organizational need and approved policy."
+ },
+ {
+  "category": "Employment",
+  "q": "What is the difference between probation and confirmation?",
+  "a": "Probation is the initial assessment period. Confirmation means the employee has successfully completed the probation period and has been formally confirmed by the company."
+ },
+ {
+  "category": "Employment",
+  "q": "Is confirmation automatic after probation period?",
+  "a": "No. Confirmation depends on performance, conduct, role suitability and approval by the authorized authority."
+ },
+ {
+  "category": "Employment",
+  "q": "Who confirms an employee?",
+  "a": "Confirmation is processed through the proper approval channel, usually involving the reporting manager, Business/Function Head and People Team."
+ },
+ {
+  "category": "Employment",
+  "q": "What happens if performance during probation is not satisfactory?",
+  "a": "If performance during probation is not satisfactory, the company may either separate/terminate the employment as per appointment terms and applicable policy, or place the employee under a Performance Improvement Plan (PIP) after completion of 90 days, depending on the case and management decision."
+ },
+ {
+  "category": "Salary",
+  "q": "When is salary usually paid?",
+  "a": "Salary is usually paid monthly through the employee’s nominated bank account, as per payroll schedule."
+ },
+ {
+  "category": "Salary",
+  "q": "What happens if someone joins in the middle of a month?",
+  "a": "Salary is paid on a pro-rata basis from the actual joining date."
+ },
+ {
+  "category": "Salary",
+  "q": "Are salary details confidential?",
+  "a": "Yes. Salary and benefit information are confidential and should not be disclosed casually or without authorization."
+ },
+ {
+  "category": "Salary",
+  "q": "Can I request a salary advance?",
+  "a": "Salary advance is generally discouraged and may be considered only in exceptional cases with proper approval."
+ },
+ {
+  "category": "Salary",
+  "q": "Who should I contact for salary-related issues?",
+  "a": "Employees should contact the People Team or payroll-support authority through the official process."
+ },
+ {
+  "category": "Increment",
+  "q": "When is annual increment considered?",
+  "a": "Annual increment is normally considered as part of the annual performance and compensation review process."
+ },
+ {
+  "category": "Increment",
+  "q": "Who is eligible for annual increment?",
+  "a": "To be eligible for increment in that financial year, the employee needs to be confirmed on or before 01 April of that financial year, subject to performance and approval."
+ },
+ {
+  "category": "Increment",
+  "q": "Is annual increment guaranteed?",
+  "a": "No. Annual increment is not automatic. It depends on confirmation status, performance, company affordability and management approval."
+ },
+ {
+  "category": "Increment",
+  "q": "Can an employee receive special increment?",
+  "a": "Special increment may be considered only in exceptional cases based on strong justification and approval by the authorized authority."
+ },
+ {
+  "category": "Increment",
+  "q": "Can a newly confirmed employee receive annual increment in the same year?",
+  "a": "Yes, only if the employee is confirmed on or before 01 April of that financial year and meets other applicable criteria."
+ },
+ {
+  "category": "Bonus",
+  "q": "Who is eligible for festival bonus?",
+  "a": "Eligible confirmed employees may receive festival bonus as per company policy."
+ },
+ {
+  "category": "Bonus",
+  "q": "How many festival bonuses are usually paid?",
+  "a": "Two festival bonuses are generally paid in a year, subject to eligibility and applicable policy."
+ },
+ {
+  "category": "Bonus",
+  "q": "What is the usual amount of festival bonus?",
+  "a": "Festival bonus is generally equivalent to one basic salary for each eligible festival bonus, subject to applicable policy."
+ },
+ {
+  "category": "Bonus",
+  "q": "When is festival bonus paid?",
+  "a": "Festival bonus is usually paid before the applicable festival, as per company payroll schedule."
+ },
+ {
+  "category": "Bonus",
+  "q": "Is festival bonus applicable to all religions?",
+  "a": "One bonus is paid during Eid-ul-Fitr and the other during the major religious festival of the employee’s respective religion."
+ },
+ {
+  "category": "Performance Bonus",
+  "q": "Who is eligible for performance bonus?",
+  "a": "Employees confirmed on or before 01 April of the financial year may be eligible for performance bonus, subject to performance rating, policy and approval."
+ },
+ {
+  "category": "Performance Bonus",
+  "q": "Is performance bonus guaranteed?",
+  "a": "No. Performance bonus depends on eligibility, performance outcome, appraisal completion, business result and management approval."
+ },
+ {
+  "category": "Performance Bonus",
+  "q": "When is performance bonus paid?",
+  "a": "Performance bonus is paid between 1 September and 30 September, subject to completion of the appraisal cycle and approval."
+ },
+ {
+  "category": "Performance Bonus",
+  "q": "Do Field Sales employees receive performance bonus?",
+  "a": "Field Sales employees may follow separate sales incentive or business-specific reward policy instead of the corporate performance bonus structure."
+ },
+ {
+  "category": "Performance Bonus",
+  "q": "Who approves performance bonus?",
+  "a": "Performance bonus is finalized through the approved performance management and management approval process."
+ },
+ {
+  "category": "Leave",
+  "q": "What types of leave are available?",
+  "a": "Leave may include Privilege Leave, Sick Leave, Maternity Leave and other approved leave types as per company policy and applicable law."
+ },
+ {
+  "category": "Leave",
+  "q": "Is leave an employee right or subject to approval?",
+  "a": "Leave is an employee benefit, but availing leave requires proper application and approval based on business need and policy."
+ },
+ {
+  "category": "Leave",
+  "q": "How should I apply for leave?",
+  "a": "Leave should be applied through the official leave process or system, with approval from the reporting manager or authorized authority."
+ },
+ {
+  "category": "Leave",
+  "q": "Can leave be taken without approval?",
+  "a": "No. Leave should be approved in advance unless there is an emergency or illness."
+ },
+ {
+  "category": "Leave",
+  "q": "What should I do in case of sudden illness?",
+  "a": "Inform the reporting manager as early as possible and complete the official leave process as soon as practical. Medical documents may be required."
+ },
+ {
+  "category": "Leave",
+  "q": "Can unused leave be carried forward?",
+  "a": "Leave carry-forward depends on the applicable company leave policy. Employees should check with the People Team for their current entitlement."
+ },
+ {
+  "category": "Leave",
+  "q": "Can leave be encashed?",
+  "a": "Leave encashment, if applicable, will follow the approved company policy and separation/encashment rules."
+ },
+ {
+  "category": "Leave",
+  "q": "Can leave be rejected?",
+  "a": "Yes. Leave may be declined or rescheduled based on business urgency, manpower requirement or policy limitations."
+ },
+ {
+  "category": "Leave",
+  "q": "Is maternity leave provided?",
+  "a": "Maternity leave is provided as per applicable Labour Law/Rules and company policy."
+ },
+ {
+  "category": "Leave",
+  "q": "Can an employee remain absent without approval?",
+  "a": "No. Unauthorized absence may be treated as misconduct and may lead to disciplinary action."
+ },
+ {
+  "category": "Attendance",
+  "q": "Is attendance recording mandatory?",
+  "a": "Yes. Employees must follow the company’s attendance recording process where attendance recording system is applicable."
+ },
+ {
+  "category": "Attendance",
+  "q": "What happens if I forget to punch attendance?",
+  "a": "The employee should immediately inform the reporting manager/authorized person and regularize it through the official process. Habitual non-compliance may lead to action."
+ },
+ {
+  "category": "Attendance",
+  "q": "What happens if an employee is habitually late?",
+  "a": "Habitual late attendance may be treated as violation of company discipline and may lead to disciplinary action."
+ },
+ {
+  "category": "Attendance",
+  "q": "Are office timings the same for all locations?",
+  "a": "Office timing may vary by location, business, function or operational requirement. Employees should follow the timing applicable to their office or workplace."
+ },
+ {
+  "category": "Attendance",
+  "q": "What are the current head office locations?",
+  "a": "Current head office locations include ACI Centre, Novo Tower, Simpletree Anarkoli, Police Plaza, Shanta Forum, Trade Intercontinental, Aristo Tower and Edison Prime."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Which TA/DA policy applies to corporate employees?",
+  "a": "Corporate/management employees follow the TA/DA Policy for Corporate Employees, revised on 01 August 2025."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Does the same TA/DA policy apply to Field Sales employees?",
+  "a": "No. Field Sales employees follow separate TA/DA policies, which may vary from business to business."
+ },
+ {
+  "category": "TA/DA",
+  "q": "What are the TA/DA entitlements for corporate employees?",
+  "a": "Entitlements depend on grade: OM01–OM03: Meal 800, Accommodation up to 2,500 or 3,000 for special cities, DA 350, TA 1st Class A/C Bus/Train/Steamer, Stay with Relative 600. OM04–OM07: Meal 900, Accommodation up to 3,000 or 3,500 for special cities, DA 450, TA 1st Class A/C Bus/Train/Steamer, Stay with Relative 750. OM08–OM09: Meal and Accommodation at actual, DA 650, TA 1st Class AC Bus/Train/Steamer/Air, Stay with Relative 1,000. OM10 & Above: Meal and Accommodation at actual, DA 650, TA 1st Class AC Bus/Train/Steamer/Air, Stay with Relative 1,100."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Which cities are considered special cities under TA/DA?",
+  "a": "Special cities are Dhaka, Chattogram, Sylhet, Barishal, Cox’s Bazar and Khulna."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Am I eligible for accommodation and DA if I stay with relatives or friends?",
+  "a": "No. If an employee stays with friends or relatives during travel, the employee is not eligible for Accommodation and DA. The “Stay with Relative” amount may apply as per grade."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Is DA payable for same-day return from outstation?",
+  "a": "No. Same-day return from outstation is not eligible for Daily Allowance."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Can I rent a car during official travel?",
+  "a": "Car rental expenses must be pre-approved by the respective Head of Department."
+ },
+ {
+  "category": "TA/DA",
+  "q": "Who approves exceptions under TA/DA policy?",
+  "a": "Any exception must be approved by the authorized approving authority."
+ },
+ {
+  "category": "Transfer",
+  "q": "Can ACI transfer an employee?",
+  "a": "Yes. The company may transfer employees based on business need, subject to applicable policy and approval."
+ },
+ {
+  "category": "Transfer",
+  "q": "Will transfer-related expenses be reimbursed?",
+  "a": "Eligible transfer-related expenses may be reimbursed as per approved transfer policy and entitlement."
+ },
+ {
+  "category": "Transfer",
+  "q": "Is notice provided before transfer?",
+  "a": "Transfer notice depends on business need and policy. Employees should follow the official transfer instruction issued by the company."
+ },
+ {
+  "category": "Transfer",
+  "q": "Can an employee refuse transfer?",
+  "a": "Employees are expected to comply with official transfer instructions unless there is a valid reason accepted by Management."
+ },
+ {
+  "category": "Transfer",
+  "q": "Who should I contact for transfer support?",
+  "a": "Employees should contact the People Team and relevant Administration/Finance support teams for transfer-related processing."
+ },
+ {
+  "category": "Medical",
+  "q": "Do employees receive medical allowance?",
+  "a": "Eligible employees receive medical allowance as part of salary structure or as per applicable policy."
+ },
+ {
+  "category": "Medical",
+  "q": "Is hospitalization support available?",
+  "a": "Hospitalization support may be available for eligible employees and dependents as per company policy."
+ },
+ {
+  "category": "Medical",
+  "q": "Is prior approval required for hospitalization claim?",
+  "a": "Prior approval may be required depending on the type of treatment and policy condition. Employees should contact the People Team before claim submission where possible."
+ },
+ {
+  "category": "Medical",
+  "q": "Are all medical expenses reimbursable?",
+  "a": "No. Only eligible medical expenses are reimbursable as per company policy. Non-eligible or excluded expenses will not be reimbursed."
+ },
+ {
+  "category": "Medical",
+  "q": "Are cosmetic treatments reimbursable?",
+  "a": "Cosmetic or beautification-related treatments are generally not reimbursable unless specifically approved under policy."
+ },
+ {
+  "category": "Medical",
+  "q": "Are dependents covered under medical benefit?",
+  "a": "Dependent coverage, if applicable, will follow the company’s medical benefit policy and eligibility rules."
+ },
+ {
+  "category": "Medical",
+  "q": "Who verifies medical claims?",
+  "a": "Medical claims are reviewed through the authorized approval and verification process involving relevant People Team/Finance/authorized authority."
+ },
+ {
+  "category": "Gratuity",
+  "q": "Who is eligible for gratuity?",
+  "a": "Gratuity is applicable after completion of 01 year of service, subject to company gratuity rules."
+ },
+ {
+  "category": "Gratuity",
+  "q": "How is gratuity calculated?",
+  "a": "Gratuity is generally calculated based on last drawn basic salary and eligible completed service period, as per the approved gratuity rule."
+ },
+ {
+  "category": "Gratuity",
+  "q": "How is partial service period treated for gratuity?",
+  "a": "As per latest instruction, after completion of 1 year, if an employee completes an additional 6 months, that period may be treated as a full year for gratuity calculation, subject to final policy wording."
+ },
+ {
+  "category": "Gratuity",
+  "q": "What is the gratuity rate for service up to 10 years?",
+  "a": "For eligible service, gratuity is generally calculated at 30 days / 1 month basic salary for each eligible year, subject to company rule."
+ },
+ {
+  "category": "Gratuity",
+  "q": "What is the gratuity rate for service above 10 years?",
+  "a": "For more than 10 years of eligible service, gratuity is generally calculated at 45 days / 1.5 months basic salary for each eligible year, subject to company rule."
+ },
+ {
+  "category": "Gratuity",
+  "q": "Is gratuity paid automatically during service?",
+  "a": "No. Gratuity is normally payable during separation/retirement/death-related settlement, subject to eligibility and clearance."
+ },
+ {
+  "category": "PF",
+  "q": "When can an employee join Provident Fund?",
+  "a": "An employee can join Provident Fund after completion of 01 year of continued service."
+ },
+ {
+  "category": "PF",
+  "q": "What is the employee PF contribution rate?",
+  "a": "The employee may contribute 8% of basic salary to Provident Fund."
+ },
+ {
+  "category": "PF",
+  "q": "Does the company contribute to PF?",
+  "a": "Yes. The company contributes the same amount after completion of 01 year of contribution, subject to Provident Fund rules."
+ },
+ {
+  "category": "PF",
+  "q": "Can I withdraw PF while in service?",
+  "a": "Withdrawal or loan from PF, if allowed, will follow the approved Provident Fund rules."
+ },
+ {
+  "category": "PF",
+  "q": "Who manages Provident Fund rules?",
+  "a": "Provident Fund is governed by the approved PF rules and relevant trustees/authorized authority."
+ },
+ {
+  "category": "Insurance",
+  "q": "Is Group Life Insurance available?",
+  "a": "Group Life Insurance may be available for eligible employees as per company policy and insurance terms."
+ },
+ {
+  "category": "Insurance",
+  "q": "Who receives insurance benefit in case of death?",
+  "a": "Insurance benefit is payable to the nominated person/legal beneficiary as per insurance and company records."
+ },
+ {
+  "category": "Insurance",
+  "q": "Should employees update nominee information?",
+  "a": "Yes. Employees should keep nominee information updated for PF, gratuity, insurance and other relevant benefits."
+ },
+ {
+  "category": "Separation",
+  "q": "What are common types of separation?",
+  "a": "Separation may include resignation, retirement, termination, dismissal, redundancy, death or other legally recognized forms of separation."
+ },
+ {
+  "category": "Separation",
+  "q": "How should an employee resign?",
+  "a": "An employee should submit resignation through proper channel, following the required notice period and approval process."
+ },
+ {
+  "category": "Separation",
+  "q": "Is notice period mandatory?",
+  "a": "Yes. Employees must follow the notice period mentioned in appointment terms or applicable policy unless waived by the authorized authority."
+ },
+ {
+  "category": "Separation",
+  "q": "What happens if notice period is not served?",
+  "a": "Notice pay adjustment may apply, subject to appointment terms, policy and management approval."
+ },
+ {
+  "category": "Separation",
+  "q": "Is clearance required before final settlement?",
+  "a": "Yes. Final settlement is processed after completion of required clearance from relevant departments."
+ },
+ {
+  "category": "Separation",
+  "q": "When is final settlement paid?",
+  "a": "Final settlement is paid after clearance, calculation, approval and payroll/finance processing as per company procedure."
+ },
+ {
+  "category": "Conduct",
+  "q": "What conduct is expected from employees?",
+  "a": "Employees are expected to act professionally, ethically, respectfully and in the best interest of ACI."
+ },
+ {
+  "category": "Conduct",
+  "q": "Can employees share confidential company information?",
+  "a": "No. Confidential company information must not be disclosed without authorization."
+ },
+ {
+  "category": "Conduct",
+  "q": "Can employees make public or media statements on behalf of ACI?",
+  "a": "Employees should not make public, media or social media statements on behalf of ACI unless officially authorized."
+ },
+ {
+  "category": "Conduct",
+  "q": "Can employees accept gifts from suppliers or business partners?",
+  "a": "Employees should avoid accepting gifts, benefits or favors that may create conflict of interest or influence business judgment."
+ },
+ {
+  "category": "Conduct",
+  "q": "What happens in case of misconduct?",
+  "a": "Misconduct may lead to disciplinary action, including warning, suspension, termination, dismissal or other action as per policy and applicable law."
+ }
+]

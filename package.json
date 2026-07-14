@@ -1,0 +1,7 @@
+{
+  "name": "aci-people-helpdesk",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ACI People Helpdesk - PeopleBot with Gemini AI (Vercel)",
+  "engines": { "node": ">=18" }
+}

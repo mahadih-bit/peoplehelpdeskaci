@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f7fb" />
+  <title>ACI People Helpdesk · PeopleBot Demo</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css?v=people-team-fix-2" />
+</head>
+<body>
+  <div class="spectrum-bg" aria-hidden="true">
+    <span class="orb orb-blue"></span>
+    <span class="orb orb-purple"></span>
+    <span class="orb orb-pink"></span>
+    <span class="orb orb-gold"></span>
+    <span class="orb orb-green"></span>
+  </div>
+
+  <div id="app" class="app">
+    <section id="loginView" class="login-view">
+      <header class="marketing-header">
+        <div class="brand-lockup">
+          <div class="brand-mark">ACI</div>
+          <div>
+            <strong>People Helpdesk</strong>
+            <span>AI-guided People support</span>
+          </div>
+        </div>
+        <nav>
+          <a href="#experience">Experience</a>
+          <a href="#aiPreview">AI Chat</a>
+          <a href="#adminPreview">Admin</a>
+        </nav>
+      </header>
+
+      <main class="hero-wrap">
+        <section class="hero-copy">
+          <p class="eyebrow">ACI People Team</p>
+          <h1>Friendly People Team answers, beautifully simple.</h1>
+          <p class="lead">A demo version of ACI People Helpdesk with AI-style greetings, policy-based chat responses, employee self-service, and People Team administrator analytics.</p>
+          <div class="hero-actions">
+            <a href="#loginCard" class="btn primary">Try demo login</a>
+            <a href="#experience" class="btn soft">View features</a>
+          </div>
+          <div class="hero-badges">
+            <span>Employee ID login</span>
+            <span>Offline-ready</span>
+            <span>AI-style response</span>
+            <span>Admin analytics</span>
+          </div>
+        </section>
+
+        <section id="loginCard" class="login-card" aria-label="Demo login">
+          <div class="login-card-header">
+            <div class="spark-icon">✦</div>
+            <div>
+              <h2>Sign in</h2>
+              <p>Use Employee ID as both ID and password.</p>
+            </div>
+          </div>
+          <form id="loginForm" class="login-form">
+            <label for="employeeId">Employee ID</label>
+            <input id="employeeId" type="text" inputmode="numeric" placeholder="Example: 1001" autocomplete="username" required />
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Same as Employee ID" autocomplete="current-password" required />
+            <p id="loginError" class="error" role="alert"></p>
+            <button class="btn primary full" type="submit">Continue</button>
+          </form>
+          <div class="demo-logins">
+            <p>Demo profiles</p>
+            <button data-login="1001">1001 · Corporate</button>
+            <button data-login="2001">2001 · Pharmaceuticals</button>
+            <button data-login="3001">3001 · Trade Union</button>
+            <button data-login="4001">4001 · Field Force</button>
+            <button data-login="9999">9999 · People Admin</button>
+          </div>
+        </section>
+      </main>
+
+      <section id="experience" class="public-section">
+        <div class="section-head center">
+          <p class="eyebrow">Experience</p>
+          <h2>Built around the conversation.</h2>
+          <p>Employees land directly on PeopleBot, receive warm greetings, ask People Team questions naturally, and get simple next-step guidance.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card tone-blue"><span>01</span><h3>AI-style PeopleBot</h3><p>Friendly greetings, intent detection, contextual answers, escalation suggestions, and quick prompts.</p></article>
+          <article class="feature-card tone-purple"><span>02</span><h3>Current People Rules</h3><p>Present People Team rules are shown in employee-friendly language without communicating old-versus-new changes.</p></article>
+          <article class="feature-card tone-rose"><span>03</span><h3>Admin Intelligence</h3><p>Query dashboard, category trends, FAQ gaps, employee segment view, recent queries, and exportable data.</p></article>
+        </div>
+      </section>
+
+      <section id="aiPreview" class="public-section split-preview">
+        <div>
+          <p class="eyebrow">AI Chat</p>
+          <h2>A helpful tone by default.</h2>
+          <p>PeopleBot greets employees by name, answers in a friendly way, and explains what action is required. Sensitive or unclear questions are routed to the People Team.</p>
+        </div>
+        <div class="mini-chat preview-card">
+          <div class="mini-bubble bot">Good morning, Mahadi. How can I help with your People Team question today?</div>
+          <div class="mini-bubble user">When can I start PF contribution?</div>
+          <div class="mini-bubble bot">You can contribute after completing one year of continuous service. Company equal contribution applies after one year from your PF contribution start date.</div>
+        </div>
+      </section>
+
+      <section id="adminPreview" class="public-section admin-preview-card">
+        <div>
+          <p class="eyebrow">Administrator</p>
+          <h2>Turn employee questions into People Team intelligence.</h2>
+          <p>Admin users can review query volume, top categories, unresolved questions, confidence levels, FAQ gaps, and service ownership readiness.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="appView" class="workspace hidden">
+      <aside class="sidebar">
+        <div class="sidebar-brand">
+          <div class="spark-icon small">✦</div>
+          <div>
+            <strong>ACI People Helpdesk</strong>
+            <span id="roleLabel">Employee portal</span>
+          </div>
+        </div>
+        <nav id="mainNav" class="side-nav">
+          <button class="nav-btn active" data-target="chatSection">PeopleBot</button>
+          <button class="nav-btn" data-target="policySection">Policy Library</button>
+          <button class="nav-btn" data-target="rulesSection">Current Rules</button>
+          <button class="nav-btn" data-target="toolsSection">Guidance Tools</button>
+          <button class="nav-btn" data-target="serviceSection">Service Request</button>
+          <button class="nav-btn admin-only hidden" data-target="adminSection">Administrator</button>
+          <button class="nav-btn" data-target="improveSection">Improve System</button>
+        </nav>
+        <div class="offline-card">
+          <span class="pulse-dot"></span>
+          <div>
+            <strong>Offline ready</strong>
+            <p>People policy pack and demo analytics are stored locally.</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="timeGreeting">Good day</p>
+            <h1 id="welcomeTitle">How can PeopleBot help?</h1>
+          </div>
+          <div class="profile-chip">
+            <div class="avatar" id="avatar">M</div>
+            <div>
+              <strong id="profileName">Mahadi Hasan</strong>
+              <span id="profileMeta">Management · Corporate</span>
+            </div>
+            <button id="logoutBtn" class="btn ghost">Logout</button>
+          </div>
+        </header>
+
+        <section id="chatSection" class="section active">
+          <div class="chat-layout">
+            <article class="chat-card">
+              <div class="chat-head">
+                <div>
+                  <span class="status-live"></span>
+                  <strong>PeopleBot</strong>
+                  <small>AI-style People assistant · Demo</small>
+                </div>
+                <button id="resetChat" class="btn ghost small-btn">New chat</button>
+              </div>
+              <div id="chatWindow" class="chat-window" aria-live="polite"></div>
+              <div id="quickPrompts" class="quick-prompts"></div>
+              <form id="chatForm" class="chat-input">
+                <input id="chatInput" type="text" placeholder="Ask about leave, PF, gratuity, attendance, resignation..." autocomplete="off" />
+                <button class="btn primary" type="submit">Ask</button>
+              </form>
+            </article>
+
+            <aside class="right-stack">
+              <article class="glass-card spectrum-card">
+                <p class="eyebrow">Smart response style</p>
+                <h2>Warm. Clear. Policy-based.</h2>
+                <p>PeopleBot gives a greeting, understands the service category, answers simply, and suggests the next action.</p>
+              </article>
+              <article class="glass-card employee-profile">
+                <h3>Your profile</h3>
+                <dl>
+                  <div><dt>Employee ID</dt><dd id="employeeIdText">1001</dd></div>
+                  <div><dt>Division</dt><dd id="divisionText">Corporate</dd></div>
+                  <div><dt>Grade type</dt><dd id="gradeText">Management</dd></div>
+                  <div><dt>Status</dt><dd id="statusText">Confirmed</dd></div>
+                </dl>
+              </article>
+              <article class="glass-card route-card">
+                <h3>Escalation routes</h3>
+                <ul>
+                  <li>Payroll: salary, payslip, tax, deduction</li>
+                  <li>People Rewards: PF, gratuity, benefits, bonus</li>
+                  <li>People Partner: confirmation, transfer, resignation</li>
+                  <li>Admin: ID card, logistics, attendance device</li>
+                </ul>
+              </article>
+            </aside>
+          </div>
+        </section>
+
+        <section id="policySection" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Policy Library</p>
+            <h2>Browse People support areas.</h2>
+            <p>Each card can later connect to full policy pages, approved forms, circulars, and People Team owners.</p>
+          </div>
+          <div id="policyGrid" class="policy-grid"></div>
+        </section>
+
+        <section id="rulesSection" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Current Rules</p>
+            <h2>Present ACI PLC guidance.</h2>
+            <p>This employee-facing screen shows current guidance only, without referring to earlier policy changes.</p>
+          </div>
+          <div id="rulesGrid" class="rules-grid"></div>
+        </section>
+
+        <section id="toolsSection" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Guidance Tools</p>
+            <h2>Quick eligibility checks.</h2>
+            <p>Demo-only guidance tools. Final calculations should be validated by People Rewards and People Operations before launch.</p>
+          </div>
+          <div class="tool-grid">
+            <article class="tool-card">
+              <h3>Gratuity Estimator</h3>
+              <label>Last drawn basic salary</label>
+              <input id="basicSalary" type="number" value="50000" min="0" />
+              <label>Completed full years of service</label>
+              <input id="serviceYears" type="number" value="10" min="0" />
+              <label>Additional completed months</label>
+              <input id="serviceMonths" type="number" value="6" min="0" max="11" />
+              <button id="calcGratuity" class="btn soft full">Calculate gratuity</button>
+              <p id="gratuityResult" class="result"></p>
+            </article>
+            <article class="tool-card">
+              <h3>PF Eligibility</h3>
+              <label>Completed continuous service years</label>
+              <input id="pfYears" type="number" value="1" min="0" step="0.1" />
+              <button id="calcPf" class="btn soft full">Check PF</button>
+              <p id="pfResult" class="result"></p>
+            </article>
+            <article class="tool-card">
+              <h3>Performance Bonus</h3>
+              <label>Confirmation date</label>
+              <input id="confirmDate" type="date" value="2026-04-01" />
+              <button id="calcBonus" class="btn soft full">Check eligibility</button>
+              <p id="bonusResult" class="result"></p>
+            </article>
+          </div>
+        </section>
+
+        <section id="serviceSection" class="section">
+          <div class="service-layout">
+            <article class="glass-card">
+              <p class="eyebrow">Offline Draft</p>
+              <h2>Save a People service request.</h2>
+              <p>The request is stored locally in this demo. Production can sync to People Partner, Payroll, People Rewards, Admin, or Compliance.</p>
+              <form id="requestForm" class="request-form">
+                <label for="requestType">Request category</label>
+                <select id="requestType">
+                  <option>Leave / Attendance</option>
+                  <option>Payroll / Payslip</option>
+                  <option>Benefits / PF / Gratuity</option>
+                  <option>TA/DA</option>
+                  <option>Confirmation</option>
+                  <option>Clearance / Resignation</option>
+                  <option>Transfer / Posting</option>
+                  <option>Joining Formalities</option>
+                  <option>Other People Team Query</option>
+                </select>
+                <label for="requestText">Details</label>
+                <textarea id="requestText" rows="5" placeholder="Write your request here..."></textarea>
+                <button class="btn primary" type="submit">Save Offline Draft</button>
+              </form>
+            </article>
+            <article class="glass-card saved-card">
+              <h3>Saved draft</h3>
+              <pre id="savedDraft">No offline draft saved yet.</pre>
+            </article>
+          </div>
+        </section>
+
+        <section id="adminSection" class="section">
+          <div class="admin-top">
+            <div>
+              <p class="eyebrow">Administrator</p>
+              <h2>Query dashboard & analytics.</h2>
+              <p>Track what employees ask, where policy confusion exists, and what the People Team should improve next.</p>
+            </div>
+            <div class="admin-actions">
+              <button id="exportCsv" class="btn soft">Export CSV</button>
+              <button id="seedAnalytics" class="btn ghost">Add demo data</button>
+              <button id="clearAnalytics" class="btn ghost danger">Clear demo data</button>
+            </div>
+          </div>
+
+          <div class="kpi-grid">
+            <article><span>Total queries</span><strong id="kpiTotal">0</strong><small>Employee questions logged</small></article>
+            <article><span>Resolved by bot</span><strong id="kpiResolved">0%</strong><small>Based on confidence</small></article>
+            <article><span>Escalation needed</span><strong id="kpiEscalated">0</strong><small>Unclear or sensitive queries</small></article>
+            <article><span>Avg. confidence</span><strong id="kpiConfidence">0%</strong><small>Demo intent matching</small></article>
+          </div>
+
+          <div class="admin-grid">
+            <article class="admin-card large">
+              <div class="card-title"><h3>Query categories</h3><span>Volume by area</span></div>
+              <div id="categoryBars" class="bar-list"></div>
+            </article>
+            <article class="admin-card">
+              <div class="card-title"><h3>Employee segments</h3><span>Who is asking</span></div>
+              <div id="segmentBars" class="bar-list compact"></div>
+            </article>
+            <article class="admin-card">
+              <div class="card-title"><h3>FAQ gaps</h3><span>Needs content improvement</span></div>
+              <ul id="gapList" class="gap-list"></ul>
+            </article>
+            <article class="admin-card large">
+              <div class="card-title"><h3>Recent queries</h3><span>Latest employee questions</span></div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Time</th><th>Employee</th><th>Category</th><th>Query</th><th>Status</th></tr></thead>
+                  <tbody id="recentQueries"></tbody>
+                </table>
+              </div>
+            </article>
+            <article class="admin-card">
+              <div class="card-title"><h3>Service owner matrix</h3><span>Demo routing</span></div>
+              <div id="ownerMatrix" class="owner-matrix"></div>
+            </article>
+            <article class="admin-card">
+              <div class="card-title"><h3>AI settings needed</h3><span>Before production</span></div>
+              <ul class="setting-list">
+                <li>Approved knowledge base owner</li>
+                <li>Fallback confidence threshold</li>
+                <li>Bangla + English tone guide</li>
+                <li>Escalation SLA by service</li>
+                <li>PII and payroll data security rule</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="improveSection" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Help improve this system</p>
+            <h2>Inputs needed from ACI People Team.</h2>
+            <p>These items will make the demo more accurate and ready for management presentation or IT discussion.</p>
+          </div>
+          <div class="improve-grid">
+            <article><span>1</span><h3>Top FAQs</h3><p>Share 50–100 real employee questions from People Partners, Payroll, People Rewards, Admin, factory People Team, and field People Team.</p></article>
+            <article><span>2</span><h3>Current Policy Pack</h3><p>Provide final present rules by employee type, division, grade category, forms, and effective dates for internal control.</p></article>
+            <article><span>3</span><h3>Service Ownership</h3><p>Confirm category owner, approver, SLA, escalation path, required documents, and exception authority.</p></article>
+            <article><span>4</span><h3>Employee Segments</h3><p>Validate differences for management, field force, Pharma, Trade Union, contractual, factory, and depot employees.</p></article>
+            <article><span>5</span><h3>AI Governance</h3><p>Confirm answer disclaimer, confidence threshold, data privacy, admin access, audit log, and policy review cycle.</p></article>
+            <article><span>6</span><h3>Integration</h3><p>Decide future connection with People systems, attendance, payroll, ID card, onboarding, email, and service request systems.</p></article>
+          </div>
+        </section>
+      </main>
+    </section>
+  </div>
+
+  <script src="app.js?v=gemini-ai-1"></script>
+</body>
+</html>

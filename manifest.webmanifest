@@ -1,0 +1,9 @@
+{
+  "name": "ACI People Helpdesk PeopleBot Demo",
+  "short_name": "PeopleHelpdesk",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#f7f7fb",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml"}]
+}
